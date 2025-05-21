@@ -18,3 +18,11 @@ go study backend
 go run .
 go test ./...
 ```
+
+## DB Connect
+
+```bash
+export MYSQL_DATABASE=go_study && export MYSQL_USER=go_user && export MYSQL_PASSWORD=go_password && export MYSQL_ROOT_PASSWORD=root_password && docker-compose -f docker-compose.test.yml up -d
+
+go run .
+```
